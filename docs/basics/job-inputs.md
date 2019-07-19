@@ -11,7 +11,7 @@ Consider a simple application that has unit tests. In order to run those tests i
 * an input `resource` containing the task script that knows how to run the tests
 * an input `resource` containing the application source code
 
-For the example Go application [simple-go-web-app](https://github.com/cloudfoundry-community/simple-go-web-app), the task image needs to include the Go programming language. We will use the `golang:1.9-alpine` image from https://hub.docker.com/_/golang/ (see https://imagelayers.io/?images=golang:1.9-alpine for size of layers)
+For the example Go application [simple-go-web-app](https://github.com/cloudfoundry-community/simple-go-web-app), the task image needs to include the Go programming language. We will use the `golang:1.9-alpine` image from https://hub.docker.com/_/golang/ (see https://microbadger.com/images/golang:1.9-alpine for size of layers)
 
 The task file `task_run_tests.yml` includes:
 
